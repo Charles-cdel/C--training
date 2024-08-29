@@ -1,0 +1,14 @@
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/bin/Debug/net8.0/ProjetoAulas
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/bin/Debug/net8.0/ProjetoAulas.deps.json
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/bin/Debug/net8.0/ProjetoAulas.runtimeconfig.json
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/bin/Debug/net8.0/ProjetoAulas.dll
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/bin/Debug/net8.0/ProjetoAulas.pdb
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/obj/Debug/net8.0/ProjetoAulas.GeneratedMSBuildEditorConfig.editorconfig
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/obj/Debug/net8.0/ProjetoAulas.AssemblyInfoInputs.cache
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/obj/Debug/net8.0/ProjetoAulas.AssemblyInfo.cs
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/obj/Debug/net8.0/ProjetoAulas.csproj.CoreCompileInputs.cache
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/obj/Debug/net8.0/ProjetoAulas.dll
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/obj/Debug/net8.0/refint/ProjetoAulas.dll
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/obj/Debug/net8.0/ProjetoAulas.pdb
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/obj/Debug/net8.0/ProjetoAulas.genruntimeconfig.cache
+/home/carlos-alberto/Documentos/C#/ProjetoAulas/obj/Debug/net8.0/ref/ProjetoAulas.dll
