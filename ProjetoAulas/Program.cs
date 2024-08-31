@@ -126,7 +126,7 @@ string NomeCompleto()
 int somaValores()
 {
     return 8 + 5;
-}*/
+}
 
 ////Função que recebe parametro/////
 
@@ -144,9 +144,130 @@ string NomeEIdadade (string nome, int idade){
     return "Meu nome é" + nome + "e tenho " + idade + " anos";
 }
 
+using System.Collections;
+
+var arrayList =  new ArrayList();// criando instancia do arrayList
+arrayList.Add(1);
+arrayList.Add("Carlos");
+arrayList.Add(false);
+
+//Console.WriteLine(arrayList[1]);// retorna um indice da lista 
+
+arrayList.RemoveAt(0);
+arrayList.Clear();
+
+foreach (var item in arrayList)// percorre os itens do array
+{
+    Console.WriteLine(item);
+}
+
+//var arrayTipadoNumero = new int [5] {1, 2, 3, 4, 5};
+var arrayTipadoNumero = new int [5];
+arrayTipadoNumero[3] = 8;
+arrayTipadoNumero[4] = 9;
+arrayTipadoNumero[0] = 6;
+arrayTipadoNumero[1] = 7;
+arrayTipadoNumero[2] = 90;
 
 
+//Array.Resize(ref arrayTipadoNumero, 100);
+
+//arrayTipadoNumero[10] = 100;
+
+foreach (var item in arrayTipadoNumero)
+{
+    Console.WriteLine(item);
+}
+
+var arrayTipadoString = new string[3] {"Carlos", "Alberto", "Carneiro"};
+
+foreach (var item in arrayTipadoString)
+{
+    Console.WriteLine(item);
+}
+
+//LIsta Generica
+
+var lista = new List<string>(10);
+lista.Add("Carlos");
+lista.Add("Alberto");
+lista.Add("Carneiro");
+lista.Add("da");
+lista.Add("Ponte");
+lista.Add("Filho");
+lista.Add("Carla");
+lista.Add("Lima");
+lista.Add("Ponte");
+lista.Add("Vasconcelos");
+
+//var nome = lista[0];
+
+//Console.WriteLine(nome);
+
+lista.RemoveAt(3);
 
 
+foreach (var item in lista)
+{
+    Console.WriteLine(item);
+}
 
+var dicionario = new Dictionary <int, string>()
+{
+    {
+        1, "Maria"
+    },
+    {
+        2, "Lima"
+    },
+};
+
+dicionario.Add(100, "Francis");
+
+var chave = dicionario[100];
+
+Console.WriteLine(chave);
+
+foreach (var item in dicionario)
+{
+    Console.WriteLine(item.Value);
+}
+
+///QUEUE ---- FILAS/// 
+
+var queue = new Queue<string>();
+queue.Enqueue("OH QUEIROZ");
+queue.Enqueue("");
+queue.Enqueue("+10");
+
+foreach (var item in queue)
+{
+    Console.WriteLine(item);
+}
+
+//var nome = queue.Peek();
+var nome2 = queue.Dequeue();
+var nome3 = queue.Dequeue();
+
+    Console.WriteLine(nome2);
+    Console.WriteLine(nome3);
+*/
+
+////////====================STACK=====================/////
+
+var stack = new Stack<string>();
+stack.Push("Contancia");
+stack.Push("Brizamar");
+
+//foreach (var item in stack)
+//{
+    //Console.WriteLine(item);
+//}
+
+var nome = stack.Pop();
+var nome2 = stack.Pop();
+
+
+Console.WriteLine(nome);
+Console.WriteLine(nome2);
 
