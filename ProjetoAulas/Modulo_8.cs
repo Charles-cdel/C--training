@@ -10,7 +10,19 @@ namespace Cadastro
 
     {
         private int Id;
+
         public string Descricao {get; set;}
+
+        //public readonly int Estoque;
+
+        public int Estoque {get;}
+
+
+        public Produto()
+        {
+            Estoque = 1;
+        }
+
 
         public void ImpimirDescricao()
         {
@@ -27,4 +39,49 @@ namespace Cadastro
             return Id;
         }
     }
+
+    public class Pessoa
+    {
+        public int Id {get; set;}
+
+        public string Endereco {get;set;}
+
+        public string Cidade {get;set;}
+
+        public string Cep {get;set;}
+
+        public void ImpimirDados()
+        {
+            Console.WriteLine("Codigo:" + Id);
+
+            Console.WriteLine("Endereco:" + Endereco);
+
+            Console.WriteLine("Cidade:" + Cidade);
+            
+            Console.WriteLine("Cep:" + Cep);
+
+        }
+    }
+
+    public class PessoaFisica : Pessoa
+    {
+        public string CPF {get;set;}
+
+        public void ImpimirCpf()
+        {
+            Console.WriteLine("CPF:" + CPF);
+        }
+    }
+
+    public class Funcionario : PessoaFisica
+    {
+        public string Matrícula {get;set;}
+    }
+
+    public sealed class Configuracao
+    {
+        public string Host {get;set;}
+    }
+
+
 }
