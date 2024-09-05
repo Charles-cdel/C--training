@@ -12,7 +12,22 @@ namespace Application
             //ClasseSelada();
             //AulaRecord();
             //AulaInterface();
-            Conversores();
+            //Conversores();
+            TrabalhandoComStrings();
+        }
+
+        private static void TrabalhandoComStrings()
+        {
+            var trabalhandoComStrings = new Modulo10.TrabalhandoComStrings();
+            //trabalhandoComStrings.ConverterLetrasMinusculas();
+            //trabalhandoComStrings.ConverterLetrasMaiusculas();
+            //trabalhandoComStrings.Substring();
+            //trabalhandoComStrings.Range();
+            //trabalhandoComStrings.Contains();
+            //trabalhandoComStrings.Trim();
+            //trabalhandoComStrings.StartsWithEndsWith();
+            //trabalhandoComStrings.Replace();
+            trabalhandoComStrings.Length();
         }
 
         private static void Conversores()
