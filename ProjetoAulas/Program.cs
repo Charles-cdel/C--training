@@ -10,7 +10,17 @@ namespace Application
             //AulaClasses();
             //AulaHeranca();
             //ClasseSelada();
-            AulaRecord();
+            //AulaRecord();
+            AulaInterface();
+        }
+
+        private static void AulaInterface()
+        {
+            var notificacaoCliente = new Cadastro.NotficacaoCliente();
+            notificacaoCliente.Notificar();
+
+            Cadastro.INotificacao notificacao = new Cadastro.NotficacaoFuncionario();
+            notificacao.Notificar();
         }
 
         private static void AulaClasses(){
@@ -71,7 +81,7 @@ namespace Application
                 Host = "localhost"
             };
 
-            Console.WriteLine(configuracao.Host);*/
+            Console.WriteLine(configuracao.Host);
 
         }
 
@@ -82,7 +92,7 @@ namespace Application
             var curso2 = new Cadastro.Curso{Id = 1, Descricao = "Curso"};
 
             Console.WriteLine(curso1.Equals(curso2));
-            Console.WriteLine(curso1 == curso2);*/
+            Console.WriteLine(curso1 == curso2);
 
             var curso1 = new Cadastro.Curso(1 , "Curso");
             var curso2 = curso1 with {Descricao = "Saudades"};
@@ -90,7 +100,7 @@ namespace Application
             /*var curso1 = new Cadastro.CursoTeste {Id = 1, Descricao = "Curso"};
             var curso2 = new Cadastro.CursoTeste ();
             curso2.Id = curso1.Id;
-            curso2.Descricao = "Saudades";*/
+            curso2.Descricao = "Saudades";
 
             
 
@@ -99,7 +109,8 @@ namespace Application
 
 
 
-        }
+        }*/
 
     }
+}
 }

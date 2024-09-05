@@ -130,6 +130,27 @@ namespace Cadastro
 
     }*/
     
+    public interface INotificacao
+    {
+        string Descricao{get;set;}
+        void Notificar();
+    }
+    public class NotficacaoCliente : INotificacao
+    {
+        public string Descricao { get; set; }
 
+        public void Notificar()
+        {
+            Console.WriteLine("Notificando Cliente");
+        }
+    }
+    public class NotficacaoFuncionario : INotificacao
+    {
+        public string Descricao { get; set; }
 
+        public void Notificar()
+        {
+         Console.WriteLine("Notificando Funcionario");
+        }
+    }
 }
