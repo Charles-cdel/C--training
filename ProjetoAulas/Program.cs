@@ -11,7 +11,15 @@ namespace Application
             //AulaHeranca();
             //ClasseSelada();
             //AulaRecord();
-            AulaInterface();
+            //AulaInterface();
+            Conversores();
+        }
+
+        private static void Conversores()
+        {
+            var conversores = new Conversores.Conversor();
+            //conversores.ConvertAndParse();
+            conversores.TryParse();
         }
 
         private static void AulaInterface()
