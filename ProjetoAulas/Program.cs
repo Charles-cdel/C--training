@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Common;
 
 namespace Application
 {
@@ -8,7 +9,8 @@ namespace Application
         { 
             //AulaClasses();
             //AulaHeranca();
-            ClasseSelada();
+            //ClasseSelada();
+            AulaRecord();
         }
 
         private static void AulaClasses(){
@@ -62,14 +64,40 @@ namespace Application
         public static void ClasseSelada()
         {
             /*var configuracao = new Cadastro.Configuracao();
-            configuracao.Host = "localhost";*/
+            configuracao.Host = "localhost";
 
             var configuracao = new Cadastro.Configuracao
             {
                 Host = "localhost"
             };
 
-            Console.WriteLine(configuracao.Host);
+            Console.WriteLine(configuracao.Host);*/
+
+        }
+
+        private static void AulaRecord()
+        {
+            /*var curso1 = new Cadastro.Curso{Id = 1, Descricao = "Curso"};
+
+            var curso2 = new Cadastro.Curso{Id = 1, Descricao = "Curso"};
+
+            Console.WriteLine(curso1.Equals(curso2));
+            Console.WriteLine(curso1 == curso2);*/
+
+            var curso1 = new Cadastro.Curso(1 , "Curso");
+            var curso2 = curso1 with {Descricao = "Saudades"};
+
+            /*var curso1 = new Cadastro.CursoTeste {Id = 1, Descricao = "Curso"};
+            var curso2 = new Cadastro.CursoTeste ();
+            curso2.Id = curso1.Id;
+            curso2.Descricao = "Saudades";*/
+
+            
+
+            Console.WriteLine(curso1.Descricao);
+            Console.WriteLine(curso2.Descricao);
+
+
 
         }
 
