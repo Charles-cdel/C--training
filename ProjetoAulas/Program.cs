@@ -13,7 +13,20 @@ namespace Application
             //AulaRecord();
             //AulaInterface();
             //Conversores();
-            TrabalhandoComStrings();
+            //TrabalhandoComStrings();
+            TrabalhandoComDatas();
+        }
+
+        private static void TrabalhandoComDatas()
+        {
+            var trabalhandoComDatas = new Modulo11.TrabalhandoComDatas();
+            //trabalhandoComDatas.Data();
+            //trabalhandoComDatas.SubtraindoDatas();
+            //trabalhandoComDatas.AddDiaMesAno();
+            //trabalhandoComDatas.AddHoraMinSegundos();
+            //trabalhandoComDatas.Resource();
+            //trabalhandoComDatas.SomenteData();
+            trabalhandoComDatas.SomenteHora();
         }
 
         private static void TrabalhandoComStrings()
@@ -27,7 +40,7 @@ namespace Application
             //trabalhandoComStrings.Trim();
             //trabalhandoComStrings.StartsWithEndsWith();
             //trabalhandoComStrings.Replace();
-            trabalhandoComStrings.Length();
+            //trabalhandoComStrings.Length();
         }
 
         private static void Conversores()
@@ -135,5 +148,5 @@ namespace Application
         }*/
 
     }
-}
+}   
 }
