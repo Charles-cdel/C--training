@@ -15,7 +15,16 @@ namespace Application
             //Conversores();
             //TrabalhandoComStrings();
             //TrabalhandoComDatas();
-            TrabalhandoComExcecoes();
+            //TrabalhandoComExcecoes();
+            TrabalhandoComArquivos();
+        }
+
+        private static void TrabalhandoComArquivos()
+        {
+            var trabalhandoComArquivos = new Modulo13.TrabalhandoComArquivos();
+            //trabalhandoComArquivos.CriandoArquivos();
+            //trabalhandoComArquivos.LendoArquivos();
+            trabalhandoComArquivos.ExcluindoArquivo();
         }
 
         private static void TrabalhandoComExcecoes()
