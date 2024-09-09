@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/carlos-alberto/Documentos/C#/ProjetoAulas/ProjetoAulas.csproj": {}
+    "/home/carlos-alberto/Documentos/Carlos/C#/ProjetoAulas/ProjetoAulas.csproj": {}
   },
   "projects": {
-    "/home/carlos-alberto/Documentos/C#/ProjetoAulas/ProjetoAulas.csproj": {
+    "/home/carlos-alberto/Documentos/Carlos/C#/ProjetoAulas/ProjetoAulas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/carlos-alberto/Documentos/C#/ProjetoAulas/ProjetoAulas.csproj",
+        "projectUniqueName": "/home/carlos-alberto/Documentos/Carlos/C#/ProjetoAulas/ProjetoAulas.csproj",
         "projectName": "ProjetoAulas",
-        "projectPath": "/home/carlos-alberto/Documentos/C#/ProjetoAulas/ProjetoAulas.csproj",
+        "projectPath": "/home/carlos-alberto/Documentos/Carlos/C#/ProjetoAulas/ProjetoAulas.csproj",
         "packagesPath": "/home/carlos-alberto/.nuget/packages/",
-        "outputPath": "/home/carlos-alberto/Documentos/C#/ProjetoAulas/obj/",
+        "outputPath": "/home/carlos-alberto/Documentos/Carlos/C#/ProjetoAulas/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/carlos-alberto/.nuget/NuGet/NuGet.Config"
